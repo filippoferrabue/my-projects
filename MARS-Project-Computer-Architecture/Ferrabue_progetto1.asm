@@ -1,5 +1,4 @@
 #Filippo Ferrabue 
-#Matricola: 1106769
 #Progretto 1: University Student Information System
 #Sessione Giugno 2026
 
