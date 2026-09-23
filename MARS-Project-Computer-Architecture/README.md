@@ -99,22 +99,16 @@ The code is split across six modules, linked at assembly time with `.include`:
 | `utility_functions.asm` | Helpers: `copy_string`, `strip_newline`, `get_student_gpa` |
 
 ## Running it
-
-You need **Java** and **MARS 4.5**, a single executable JAR you can download from the
-[official page](http://courses.missouristate.edu/kenvollmar/mars/). No installation
-required.
-
 1. Put all six `.asm` files in the **same folder** — `.include` resolves paths relative to
    the file being assembled, so splitting them up breaks the build.
-2. Open `Mars4_5.jar` (or run `java -jar Mars4_5.jar` from a terminal).
-3. **File → Open** and select `Ferrabue_progetto1.asm`. Open only this one; the others are
-   pulled in automatically.
+2. Open `Mars4_5.jar` 
+3. **File → Open** and select `Ferrabue_progetto1.asm`. 
 4. Assemble with **F3**, then run with **F5**. The menu appears in the *Run I/O* pane.
 5. Type **0** and press Enter to load the sample records — without this the database is
    empty and every query comes back with nothing. Then pick any option from 1 to 17.
 
-A quick tour: `0` to load, `2` to list everyone, `3` then `1051` to look up a student, `8`
-then `1051` for their average, `15` for statistics, `18` to quit.
+A quick tour: `0` to load, `2` to list everyone, `3` to look up a student, `8`
+then  for their average, `15` for statistics, `18` to quit.
 
 ## Report
 
