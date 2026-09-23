@@ -2,7 +2,7 @@
 
 A text-based student records manager written entirely in **MIPS-32 assembly**, built for
 the **MARS 4.5** simulator. University project for the *Calcolatori Elettronici* (Computer
-Architecture) course — Università degli Studi di Bergamo, Electronics and Automation
+Architecture) course — Università degli Studi di Bergamo, Technologies for Electronics and Automation
 Engineering (TEA), 2025/2026.
 
 ## The project
